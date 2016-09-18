@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src= "angular.min.js"></script>
+    <script src= "app.js"></script>
+    <title>test title</title>
+  </head>
+  <body  ng-app = "checkTooMuch">
+
+    <div ng-controller = "Controller1">
+      <input type= "text" ng-model = "list" ng-style = "borderColor">
+      <br>
+      <button ng-click = 'checkOnClick()'>check if too much</button>
+      <br>
+      <div ng-style = "myObj">
+        {{result}}
+      </div>
+
+    </div>
+  </body>
+</html>
